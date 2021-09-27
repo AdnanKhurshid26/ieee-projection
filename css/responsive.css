@@ -44,6 +44,24 @@ html {
 }
 
 @media screen and (max-width: 544px) {
+  @keyframes flicker {
+    0%,
+    20%,
+    40%,
+    50%,
+    85%,
+    100% {
+      text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 18px #0088f7,
+        0 0 36px #0088f7, 0 0 42px #0088f7, 0 0 50px #0088f7, 0 0 70px #0088f7;
+    }
+    15%,
+    30%,
+    75%,
+    95% {
+      text-shadow: none;
+      transition: all 0.5s;
+    }
+  }
   .main-nav-list {
     position: absolute;
     height: 100vh;
