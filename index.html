@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>Projection</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/c06afd5824.js" crossorigin="anonymous"></script>
+  <!-- Template Main CSS File -->
+  <!-- <link href="css/old-style.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/about.css" />
+</head>
+<style>
+  .container1 {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .container1 imgcon {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .tw {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 52, 75)), to(rgb(17, 171, 243)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .fb {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 52, 75)), to(rgb(0, 25, 250)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .ins {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 52, 75)), to(rgb(179, 51, 0)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .lin {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 52, 75)), to(rgb(0, 82, 204)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+
+<body>
+  <div class="backdrop overlay hidden"></div>
+  <header id="header">
+    <nav>
+      <div class="logo">
+        <img src="img/logo_foot.png" alt="">
+      </div>
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link home btn-cta" href="#home">home</a></li>
+        <li><a class="main-nav-link about" href="#about">about</a></li>
+        <li>
+          <a class="main-nav-link projects" href="#event-sect">events</a>
+        </li>
+        <li><a class="main-nav-link contact" href="#contact">contact</a></li>
+      </ul>
+      <div class="burger">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times hidden"></i>
+      </div>
+    </nav>
+  </header>
+  <section id="home" class="hero--section">
+    <div class="presents">
+      <h1>IEEE JU IAS CHAPTER</h1>
+
+      <p>presents</p>
+    </div>
+    <img src="img/logo.png" alt="" />
+    <p>A one-stop virtual project research platform</p>
+    <button class="btn-grad">Learn More</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container my-5">
+      <div class="section-title">
+        <h2>About Us</h2>
+      </div>
+      <div class="
+            container-fluid
+            p-4
+            d-flex
+            justify-content-around
+            align-items-center
+            flex-wrap
+            aboutCointainer
+          ">
+        <div class="
+              container
+              d-flex
+              align-items-center
+              justify-content-center
+              m-0
+              aboutImg
+            ">
+          <img src="/img/about.png" alt="" class="img-fluid" />
+        </div>
+        <div class="container m-0 aboutText">
+          <div class="fw-bold mb-3 textDarkBlue aboutHeader">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            aperiam.
+          </div>
+          <div class="fw-lighter fst-italic fs-4 mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt,
+            amet, cupiditate ratione ab consectetur incidunt id veniam, fugiat
+            velit labore sed earum mollitia ipsa. Dolorem.
+          </div>
+          <div class="fs-3 fw-light">
+            <ul>
+              <li class="m-3 px-3 text-dark">
+                <i class="far fa-check-circle fs-2 textDarkBlue"></i> Ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+              </li>
+              <li class="m-3 px-3 text-dark">
+                <i class="far fa-check-circle fs-2 textDarkBlue"></i> Duis
+                aute irure dolor in reprehenderit in voluptate velit.
+              </li>
+              <li class="m-3 px-3 text-dark">
+                <i class="far fa-check-circle fs-2 textDarkBlue"></i> Ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate trideta
+                storacalaperda mastiro dolore eu fugiat nulla pariatur.
+              </li>
+            </ul>
+          </div>
+          <div class="
+                mt-5
+                aboutBtnBox
+                d-flex
+                justify-content-center
+                align-items-center
+              ">
+            <button class="btn aboutBtn fs-1 mx-5 w-100 fw-bold">
+              More Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Counts Section ======= -->
+    <div id="counts" class="counts mb-5">
+      <div class="container">
+        <div class="row counters" style="justify-content: center;">
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+              class="purecounter">50+</span>
+            <p>Participants</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+              class="purecounter">150+</span>
+            <p>Webinar Attendees</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+              class="purecounter">4</span>
+            <p>Mentors</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Counts Section -->
+
+
+  <!-- Events -->
+  <section id="event-sect">
+    <div class="conatiner mb-5">
+      <div class="section-title">
+        <h2>Events</h2>
+      </div>
+
+      <div class="container fs-4 text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+        perspiciatis soluta sequi harum veniam molestiae, minima consectetur
+        voluptates totam necessitatibus error odio impedit, natus sed
+        aspernatur. Qui ut, deleniti quibusdam iusto vitae aspernatur modi est
+        quod, eos distinctio eum iure?
+      </div>
+      <div class="
+            container
+            mt-5
+            d-flex
+            flex-wrap
+            align-items-center
+            justify-content-center
+          ">
+      </div>
+      <div class="event-cards">
+        <div class="event-card">
+          <div class="event-img">
+            <img src="img/event1.png" alt="">
+            <div class="mentor-overlay">
+
+              <a href="https://www.linkedin.com/in/sandeep-varma" target="_blank" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="event-img">
+            <img src="img/event2.png" alt="">
+            <div class="mentor-overlay">
+
+              <a href="https://www.linkedin.com/in/mukeshjaincoach" target="_blank" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="event-img">
+            <img src="img/event3.png" alt="">
+            <div class="mentor-overlay">
+
+              <a href="https://www.linkedin.com/in/subodhgajare/" target="_blank" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="content" id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 mr-auto section-title">
+            <h2>Contact Us</h2>
+            <div class="container1">
+
+              <img class="imgcon"
+                src="https://media.istockphoto.com/photos/closeup-image-of-male-hands-using-smartphone-with-icon-telephone-picture-id1168945108?b=1&k=20&m=1168945108&s=170667a&w=0&h=vuUT6Qw8h-eRIHQEesB0_fC1V1xgQtPdWp4KyaVXq0M="
+                alt="" srcset="">
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <form class="mb-5" id="contactForm" name="contactForm">
+              <div class="row">
+                <div class="form-group">
+                  <label for="name" class="col-form-label" style="font-size: 2rem;">Name</label>
+                  <input type="text" class="form-control" name="name" id="name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email" class="col-form-label" style="font-size: 2rem;">Email</label>
+                  <input type="text" class="form-control" name="email" id="email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="message" class="col-form-label" style="font-size: 2rem;">Message</label>
+                  <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <button class="btn aboutBtn fs-2 mt-3 mx-auto d-block fw-bold" type="button">Submit</button>
+                  <!-- <input type="submit" value="Send Message" class="btn btn-grad  py-2 px-4"> -->
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <img src="img/logo_foot.png" style="height:5em;width:20em" alt="">
+            <p>
+              The Jadavpur University IEEE student branch, founded in 2010, belongs to the Kolkata section of Region
+              10
+              of the organization. We are a group of enthusiastic students who are promoting innovative ideas both
+              within and outside the campus.<br><br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-chevron-right"></i> <a href="#home">Home</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#contact">Contact</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#projects">Projects</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Events</h4>
+            <ul>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Lorem ipsum dolor sit amet.</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Lorem ipsum dolor sit amet.</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Lorem ipsum dolor sit amet.</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Lorem ipsum dolor sit amet.</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Lorem ipsum dolor sit amet.</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+
+              <strong><i class="fa fa-map"></i>&nbsp;Address:</strong> Jadavpur University
+              188, Raja S.C. Mallick Rd, Kolkata-700032
+              India<br>
+              <strong><i class="fa fa-phone"></i>&nbsp;Phone:</strong> +91 1111 2222 33<br>
+              <strong><i class="fa fa-envelope"></i>&nbsp;Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>IEEE JUSB</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
+            Designed <i class="fa fa-heart"></i> by Adnan,Kushal,Sumanshu</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="fa tw fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fb fa-facebook"></i></a>
+          <a href="#" class="instagram"><i class="fa ins fa-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="fa lin fa-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

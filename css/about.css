@@ -1,0 +1,146 @@
+.aboutHeader{
+    font-size: 3.5rem;
+}
+.textDarkBlue{
+    
+    color: #1a2980;
+}
+
+.aboutText{
+    width: 55rem;
+}
+
+.aboutImg{
+    width: 50rem;
+}
+
+.aboutBtn{
+    background-image: linear-gradient(
+        to right,
+        #1a2980 0%,
+        #26d0ce 51%,
+        #1a2980 100%
+      );
+    color: white;
+    /* width: 5rem; */
+    padding: 1rem 4rem;
+    border-radius: 3rem;
+    }
+
+.aboutBtn:hover{
+    background-position: left center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+/* Section Title */
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5846f9;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+
+
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+    background: linear-gradient(90deg, #1a2980 100%, #304bff 100%), url("../img/counts-bg.png") center center no-repeat;
+    padding: 80px 0 60px 0;
+  }
+  .counts .counters span {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  .counts .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+
+
+
+
+
+
+@media screen and (max-width: 1140px) {
+    
+    .aboutText{
+        width: 40rem;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    
+    .aboutText{
+        width: 40rem;
+    }
+    .aboutImg{
+        width: 40rem;
+    }
+    .aboutHeader{
+        font-size: 3rem;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    
+    .aboutText{
+        width: 33rem;
+    }
+    .aboutImg{
+        width: 33rem;
+    }
+    .aboutHeader{
+        font-size: 3rem;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    
+    .aboutText{
+        width: 90%;
+    }
+    .aboutImg{
+        width: 90%;
+    }
+    .aboutHeader{
+        font-size: 3rem;
+    }
+    
+}
+
+
+
+
+
+/* Event Section */
+.eventCard.card-body{
+    background-color: whitesmoke;
+    line-height: 2rem;
+    transition: all 1s ease;
+}
