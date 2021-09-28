@@ -35,7 +35,6 @@
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
 }
 .section-title h2 {
   font-weight: bold;
@@ -48,11 +47,11 @@
   content: "";
   position: absolute;
   display: block;
-  width: 5vw;
+  width: 20vw;
   height: 3px;
   background: #5846f9;
   bottom: 0;
-  left: calc(50% - 2.5vw);
+  left: calc(50% - 10vw);
 }
 
 /*--------------------------------------------------------------

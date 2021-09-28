@@ -11,39 +11,6 @@ html {
 }
 
 @media screen and (max-width: 800px) {
-  header {
-    height: 6.4rem;
-  }
-  .main-nav-list {
-    position: absolute;
-    right: 0px;
-    height: calc(100vh - 64px);
-    top: 6.3rem;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    width: 50%;
-    /* transform: translateX(100%); */
-    transition: transform 0.5s ease-in-out;
-  }
-  /* .main-nav-link {
-        opacity: 1;
-      } */
-  .burger {
-    display: block;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  nav {
-    padding: 1.6rem;
-  }
-}
-
-@media screen and (max-width: 544px) {
   @keyframes flicker {
     0%,
     20%,
@@ -51,8 +18,8 @@ html {
     50%,
     85%,
     100% {
-      text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 7px #0088f7,
-        0 0 14px #0088f7, 0 0 21px #0088f7, 0 0 25px #0088f7, 0 0 32px #0088f7;
+      text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff, 0 0 11px #0088f7,
+        0 0 19px #0088f7, 0 0 27px #0088f7, 0 0 32px #0088f7, 0 0 40px #0088f7;
     }
     15%,
     30%,
@@ -66,14 +33,15 @@ html {
     position: absolute;
     height: 100vh;
     top: 0rem;
+    right: 0;
     gap: 3vh;
     background-color: rgba(2, 57, 160, 0.904);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10vh;
-    width: 70%;
-    transform: translateX(-160%);
+    width: 60%;
+    transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
     z-index: 10;
   }
@@ -85,7 +53,7 @@ html {
     z-index: 10;
   }
   .nav-active {
-    transform: translateX(-60%);
+    transform: translateX(0%);
   }
   nav {
     padding: 1.6vh;
@@ -94,7 +62,6 @@ html {
   header {
     width: 100vw;
     position: fixed;
-
     z-index: 10;
   }
 
@@ -157,9 +124,24 @@ html {
     display: block;
   }
 
+  .section-title h2 {
+    font-size: 8vw;
+  }
+  #about {
+    padding: 4.2vw;
+  }
+  .about-text {
+    width: 90%;
+    font-size: 2.8vw;
+    text-align: justify;
+  }
+  .event-text p {
+    font-size: 3vw;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+  }
   .event-cards {
     grid-template-columns: 1fr;
-
     gap: 7vw;
     padding: 4vw;
   }
@@ -175,11 +157,31 @@ html {
   .mentor-overlay {
     border-radius: 5px;
   }
-
+  .event-btn {
+    width: 100%;
+    height: 8vw;
+    font-size: 2.8vw;
+    border-radius: 4px;
+  }
   .fa-linkedin {
     font-size: 10vw;
   }
-
+  #sponsors {
+    padding: 4vw;
+  }
+  .sponsor-tiles {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4vw;
+  }
+  .sponsor-tiles div {
+    padding: 1.8vw;
+    border-radius: 4.5px;
+  }
+  .sponsor-tiles div img {
+    width: 36rem;
+    height: 18rem;
+  }
   .top {
     grid-template-columns: 1fr;
     gap: 3vw;
@@ -239,5 +241,26 @@ html {
 
   .bottom p {
     font-size: 3.2vw;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  @keyframes flicker {
+    0%,
+    20%,
+    40%,
+    50%,
+    85%,
+    100% {
+      text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 7px #0088f7,
+        0 0 14px #0088f7, 0 0 21px #0088f7, 0 0 25px #0088f7, 0 0 32px #0088f7;
+    }
+    15%,
+    30%,
+    75%,
+    95% {
+      text-shadow: none;
+      transition: all 0.5s;
+    }
   }
 }
