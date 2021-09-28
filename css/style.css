@@ -326,7 +326,7 @@ nav {
 
 #about {
   width: 100vw;
-  border: solid 1px red;
+
   padding: 2vw;
   display: flex;
   flex-direction: column;
@@ -340,7 +340,6 @@ nav {
   letter-spacing: 1px;
   text-align: center;
   font-weight: 400;
-  border: solid 1px red;
 }
 
 .event-text p {
