@@ -259,19 +259,20 @@ nav {
   width: 16vw;
   height: 3vw;
   border-radius: 3vw;
+  transition: 0.5s;
+  background-size: 200% auto;
+  margin-top: 3vh;
+  border: transparent;
+  display: block;
+}
+.btn-grad a {
+  color: white;
   font-family: "Montserrat";
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 2px;
   font-size: 1.6vw;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  margin-top: 3vh;
-
-  border: transparent;
-
-  display: block;
+  text-decoration: none;
 }
 
 .btn-grad:hover {

@@ -113,15 +113,16 @@ html {
     width: 40vw;
     height: 10vw;
     border-radius: 8vw;
+    margin-top: 2vh;
+    border: transparent;
+    display: block;
+  }
+  .btn-grad a {
     font-family: "Montserrat";
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 3.6vw;
-    margin-top: 2vh;
-
-    border: transparent;
-    display: block;
   }
 
   .section-title h2 {
