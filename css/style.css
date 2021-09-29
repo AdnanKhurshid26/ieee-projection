@@ -333,6 +333,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 .about-text {
   margin-top: 3vw;
@@ -343,20 +344,44 @@ nav {
   text-align: center;
   font-weight: 400;
 }
-.about-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2.5vw;
-  width: 100%;
-  border: solid 1px red;
-  height: 13vw;
+.about-details {
   margin-top: 3vw;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
 }
-.about-card {
-  border: solid 1px blue;
+.about-details img {
+  width: 100%;
+}
+.about-details ul {
+  padding: 1vw 2vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.5vw;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 1.6;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 10px 10px 10px 0px rgba(211, 211, 211, 0.863);
+  border-radius: 10px;
+}
+.about-details ul:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: all 0.5s;
+}
+.about-details ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(0, 194, 168); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2vw; /* Also needed for space (tweak if needed) */
+  margin-left: -1e;
+  font-size: 2.4vw;
 }
 #event {
   padding: 2vw 8vw;
