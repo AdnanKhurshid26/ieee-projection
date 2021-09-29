@@ -339,9 +339,18 @@ nav {
 }
 .about-details img {
   width: 100%;
+  border-radius: 10px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 10px 10px 10px 0px rgba(211, 211, 211, 0.863);
+}
+.about-details img:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: all 0.5s;
 }
 .about-details ul {
   padding: 1vw 2vw;
+  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;

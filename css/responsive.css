@@ -144,10 +144,13 @@ html {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3vw;
+    gap: 8vw;
   }
   .about-details img {
     width: 100%;
+    border-radius: 6px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 0.863);
   }
   .about-details ul {
     padding: 2vw 4vw;
