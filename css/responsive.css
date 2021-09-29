@@ -137,6 +137,9 @@ html {
     font-size: 2vh;
     text-align: justify;
   }
+  #event {
+    padding: 0;
+  }
   .event-text p {
     font-size: 2vh;
     line-height: 1.4;
