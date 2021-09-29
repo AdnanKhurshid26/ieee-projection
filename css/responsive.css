@@ -29,6 +29,7 @@ html {
       transition: all 0.5s;
     }
   }
+  /************************* HERO AND HEADER *************************************/
   .main-nav-list {
     position: absolute;
     height: 100vh;
@@ -124,7 +125,7 @@ html {
     letter-spacing: 2px;
     font-size: 3.6vw;
   }
-
+  /************************* ABOUT *************************************/
   .section-title h2 {
     font-size: 8vw;
   }
@@ -160,6 +161,7 @@ html {
     margin-left: -1e;
     font-size: 5vw;
   }
+  /************************* EVENT *************************************/
   #event {
     padding: 0;
   }
@@ -196,6 +198,7 @@ html {
   .fa-linkedin {
     font-size: 10vw;
   }
+  /************************* SPONSORS*************************************/
   #sponsors {
     padding: 4vw;
   }
@@ -212,6 +215,7 @@ html {
     width: 36rem;
     height: 18rem;
   }
+  /************************* FOOTER*************************************/
   .top {
     grid-template-columns: 1fr;
     gap: 3vw;

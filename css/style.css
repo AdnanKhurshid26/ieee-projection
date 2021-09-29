@@ -110,6 +110,9 @@ body {
 .hidden {
   display: none;
 }
+
+/******************* HERO AND HEADER ********************************/
+
 .hero--section {
   height: 100vh;
   width: 100vw;
@@ -228,25 +231,6 @@ nav {
   color: rgb(47, 241, 199);
 }
 
-/* .hero--.hero--section button {
-  width: 16vw;
-  height: 3vw;
-  border-radius: 0.5vw;
-  font-family: "Montserrat";
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 2px;
-  font-size: 1.6vw;
-  background-image: linear-gradient(to right, #1a2980 0%, #26d0ce 100%);
-  color: white;
-  border: transparent;
-  transition: all 1s;
-}
-.hero--.hero--section button:hover {
-  cursor: pointer;
-  background-image: linear-gradient(to left, #1a2980 0%, #26d0ce 100%);
-} */
-
 .btn-grad {
   background-image: linear-gradient(
     to right,
@@ -321,6 +305,8 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+/************************* ABOUT *************************************/
+
 .section-title h2 {
   font-size: 2.5vw;
 }
@@ -383,6 +369,7 @@ nav {
   margin-left: -1e;
   font-size: 2.4vw;
 }
+/************************* EVENTS *************************************/
 #event {
   padding: 2vw 8vw;
 }
@@ -476,7 +463,7 @@ nav {
   cursor: pointer;
   transition: all 0.4s;
 }
-
+/************************* SPONSORS *************************************/
 #sponsors {
   padding: 2vw;
 
